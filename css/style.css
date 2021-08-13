@@ -1,0 +1,145 @@
+.navbar  span{
+    color: #7DEDFF;
+}
+
+.btn {
+    border-radius: 25px;
+  
+    margin-right: 20px;
+}
+.banner{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/cover.png);
+    background-size: cover;
+    background-position: center;
+    color: beige;
+  }
+  .banner h1{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow:  0 0 35px rgba(0, 0, 0, 0.5);
+  }
+/* forms */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+.form-signin h3 {
+  color: #efefef;
+  margin-left: 55px;
+}
+.form-signin p {
+  color: #efefef;
+  margin-left: 35px;
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="phone-number"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+#app-banner{
+ 
+    background-image: linear-gradient(to right,#101b22,#240606);
+    padding: 55px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  
+  }
+  #app-banner .p-1{
+    flex: 2;
+
+
+  }
+  .h3 mb-3 fw-normal{
+    color: #efefef;
+  }
+  #app-banner .d-flex{
+    flex: 1;
+    padding: 1rem;
+  }
+  #app-banner h1{
+    margin-top: 23px;
+    color: #efefef;
+    margin-left: 25px;
+  }
+  #app-banner p{
+    margin-top: 23px;
+    color: #efefef;
+    margin-left: 25px;
+  }
+  #app-banner img{
+    width: 150px;
+    margin: 60px 0;
+  }
+  #footer{
+    background-color: #efefef;
+    padding: 20px 10px 8px;
+  
+  }
+  .container img{
+    border-bottom: 2px solid #1bcde9;
+  }
+  .form-signin {
+    position: relative ;
+    z-index: 100;
+    top:500px ;
+    position: absolute;
+    right: 100px;
+
+  }
+  .col-sm-6:nth-child(1){
+
+    position: relative;
+
+  
+  }
+  .video{
+    margin-top: 150px;
+  }
+ 
+  
+  #app-banner .d-flex span{
+    padding-top: 50px;
+
+
+  }
+  /* //media query */
+  @media (
+    max-width:700px
+  )
+  {
+    #app-banner {
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .form-signin {
+      position: relative ;
+      left: auto;
+      top: auto;
+      right: auto;
+  
+    }
+  }
